@@ -17,9 +17,21 @@ Content-Type: audio/mpeg
 ###
 
 # @name create-transcription
-POST http://localhost:3333/videos/1a37ffe9-19af-48d4-a014-cb109e1b0cb8/transcription
+POST http://localhost:3333/videos/d9ca414c-4934-4a1d-9649-3824a02b2eaf/transcription
 Content-Type: application/json
 
 {
-    "prompt": "bom dia, meme whatsapp"
+    "prompt": "mesagem de boa tarde, meme, quero comprar cuscuz"
+}
+
+###
+
+# @name generate-ai-completion
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+    "videoId": "d9ca414c-4934-4a1d-9649-3824a02b2eaf",
+    "temperature": 0.5,
+    "template": "gere um resumo do que aconteceu na transcrição do vídeo informado a seguir: '''{transcription}'''"
 }

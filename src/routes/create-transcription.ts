@@ -37,7 +37,7 @@ export async function createTranscriptionRoute(app: FastifyInstance) {
       prompt,
     });
 
-    /*   const transcription = response.text;
+    const transcription = response.text;
 
     await prisma.video.update({
       where: {
@@ -46,8 +46,8 @@ export async function createTranscriptionRoute(app: FastifyInstance) {
       data: {
         transcription,
       },
-    }); */
+    });
 
-    return response.text;
+    return transcription;
   });
 }
