@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "vercel-build": "pnpm prisma generate && pnpm prisma migrate deploy"
+    "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
   "author": "",
