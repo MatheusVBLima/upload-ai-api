@@ -1,6 +1,0 @@
-Varejo Tradicional:
-Ticket Médio: R$ 100,00
-Volume de Compra Mínimo: 500 transações/mês/empresa
-Tamanho do Mercado: 1 milhão de empresas (fonte: IBGE)
-Quantidade de Pessoas Comprando: Estima-se 0,1% das empresas no primeiro ano
-Receita Projetada: R$ 10 milhões/ano
